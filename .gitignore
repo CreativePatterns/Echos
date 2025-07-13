@@ -2,6 +2,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
+*.log
 
 # C extensions
 *.so
@@ -179,3 +180,19 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# IDE junk
+.idea/
+*.iml
+*.xml
+
+# Checkpoint extras (non-essential)
+emotion_model/checkpoint-3750/optimizer.pt
+emotion_model/checkpoint-3750/scheduler.pt
+emotion_model/checkpoint-3750/rng_state.pth
+emotion_model/checkpoint-3750/trainer_state.json
+emotion_model/checkpoint-3750/training_args.bin
+emotion_model/training_args.bin
+
+# (Optional) ignore dataset if big
+emotion_dataset/*.csv
