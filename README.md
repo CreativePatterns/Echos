@@ -1,6 +1,6 @@
 # 🧠 Emotion + Insight Analyzer
 
-Welcome to **Echoes**, a personal and public-facing project that explores the emotional intelligence of text through machine learning. This web app classifies emotions in user-written text and then reflects back a meaningful insight — tone summary, a reframe, and a gentle prompt — the way a thoughtful friend or therapist might.
+Welcome to **Echos**, a personal and public-facing project that explores the emotional intelligence of text through machine learning. This web app classifies emotions in user-written text and then reflects back a meaningful insight — tone summary, a reframe, and a gentle prompt — the way a thoughtful friend or therapist might.
 
 Built with 🧠 **Transformers**, 🤗 **Sentence Transformers**, and 🌐 **Streamlit**.
 
