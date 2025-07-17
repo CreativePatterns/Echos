@@ -1,12 +1,12 @@
 import torch
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
-from insight_generator import generate_insights  # Make sure this file is in the same directory
+from Echos.insight_generator import generate_insights  # Make sure this file is in the same directory
 import numpy as np
 
 # ================================
 # Load Emotion Classification Model
 # ================================
-MODEL_PATH = "emotion_model/checkpoint-3750"
+MODEL_PATH = "Echos/emotion_model/checkpoint-3750"
 BASE_MODEL = "distilbert-base-uncased"  # <- used during training
 tokenizer = AutoTokenizer.from_pretrained(BASE_MODEL)
 model = AutoModelForSequenceClassification.from_pretrained(MODEL_PATH)

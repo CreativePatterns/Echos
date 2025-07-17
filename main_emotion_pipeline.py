@@ -1,6 +1,5 @@
 # main_emotion_pipeline.py
 
-import os
 import pandas as pd
 import torch
 from sklearn.metrics import f1_score
@@ -13,7 +12,7 @@ from transformers import (
 )
 from datasets import Dataset
 
-from insight_generator import InsightGenerator  # <-- newly added module
+from Echos.insight_generator import InsightGenerator  # <-- newly added module
 
 # ================================
 # SETTINGS
@@ -93,7 +92,7 @@ def compute_metrics(eval_pred):
 # Training Arguments
 # ================================
 training_args = TrainingArguments(
-    output_dir="emotion_model",
+    output_dir="Echos/emotion_model",
     num_train_epochs=NUM_EPOCHS,
     per_device_train_batch_size=BATCH_SIZE,
     per_device_eval_batch_size=BATCH_SIZE,

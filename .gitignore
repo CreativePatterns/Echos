@@ -187,12 +187,12 @@ cython_debug/
 *.xml
 
 # Checkpoint extras (non-essential)
-emotion_model/checkpoint-3750/optimizer.pt
-emotion_model/checkpoint-3750/scheduler.pt
-emotion_model/checkpoint-3750/rng_state.pth
-emotion_model/checkpoint-3750/trainer_state.json
-emotion_model/checkpoint-3750/training_args.bin
-emotion_model/training_args.bin
+Echos/emotion_model/checkpoint-3750/optimizer.pt
+Echos/emotion_model/checkpoint-3750/scheduler.pt
+Echos/emotion_model/checkpoint-3750/rng_state.pth
+Echos/emotion_model/checkpoint-3750/trainer_state.json
+Echos/emotion_model/checkpoint-3750/training_args.bin
+Echos/emotion_model/training_args.bin
 
 # (Optional) ignore dataset if big
 emotion_dataset/*.csv
