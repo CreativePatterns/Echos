@@ -1,0 +1,6 @@
+streamlit
+torch
+numpy
+transformers
+insight_generator
+sentence_transformers
