@@ -34,7 +34,7 @@ def predict_emotions(text, threshold=0.5):
 
 # Streamlit UI
 st.set_page_config(page_title="Emotion + Insight Analyzer", layout="centered")
-st.title("🧠 Emotion + Insight Analyzer")
+st.title("Echos")
 st.write("Enter any text to analyze its emotional tone and receive a personalized reflection.")
 
 user_input = st.text_area("📝 Your input text", height=150)
