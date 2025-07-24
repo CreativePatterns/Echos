@@ -44,6 +44,12 @@ It’s meant to be a personal healing tool, a portfolio piece, and a stepping st
 
 1. **Clone the repo**
    ```bash
-   git clone https://github.com/your-username/emotion-insight-analyzer.git
+   git clone https://github.com/CreativePatterns/emotion-insight-analyzer.git
    cd emotion-insight-analyzer
+   
+2. **If you want to use the streamlit app**  
+  ```bash
+python -m streamlit run app.py
+
+streamlit run app.py
 
