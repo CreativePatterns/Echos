@@ -49,7 +49,6 @@ It’s meant to be a personal healing tool, a portfolio piece, and a stepping st
    
 2. **If you want to use the streamlit app**  
   ```bash
-python -m streamlit run app.py
-
-streamlit run app.py
+   python -m streamlit run app.py
+   streamlit run app.py
 
